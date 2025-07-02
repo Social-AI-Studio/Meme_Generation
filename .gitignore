@@ -1,0 +1,31 @@
+# SECRET KEYS
+.env
+gcp_creds.json
+
+# Files not being used
+bin/
+tmp/
+backup/
+img_link/
+
+# Python cache files
+__pycache__/
+
+# Scraped memes/templates
+blank_memes/
+blank_template/
+example_meme/
+explain_meme/
+meme_template/
+
+# Generated memes and logging data
+baseline_imgflip/
+baseline_supermeme/
+simulation/
+
+# Logs
+*.log
+logs/
+
+# Results
+*.json
